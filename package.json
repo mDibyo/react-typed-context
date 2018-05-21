@@ -1,0 +1,28 @@
+{
+  "name": "context-types",
+  "version": "0.0.0",
+  "description": "Runtime type checking for React Context Providers and Consumers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mDibyo/context-types.git"
+  },
+  "keywords": [
+    "react",
+    "react16",
+    "context",
+    "prop-types",
+    "runtime type checking",
+    "context providers",
+    "context consumers"
+  ],
+  "author": "Dibyo Majumdar <dibyo.majumdar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mDibyo/context-types/issues"
+  },
+  "homepage": "https://github.com/mDibyo/context-types#readme"
+}
