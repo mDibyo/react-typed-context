@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/mDibyo/context-types/issues"
   },
-  "homepage": "https://github.com/mDibyo/context-types#readme"
+  "homepage": "https://github.com/mDibyo/context-types#readme",
+  "peerDependencies": {
+    "react": "^16.3"
+  }
 }
