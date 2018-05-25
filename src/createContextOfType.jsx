@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 export default function createContextOfType(type, defaultValue) {
-  const { Provider, Consumer } = React.createContext();
+  const { Provider, ...rest } = React.createContext();
 
   class PropTypedProvider extends React.PureComponent {
     render() {
@@ -12,6 +12,6 @@ export default function createContextOfType(type, defaultValue) {
   PropTypedProvider.propTypes = { value: type };
   defaultValue && (PropTypedProvider.defaultProps = { value: defaultValue });
 
-  return { Provider: PropTypedProvider, Consumer };
+  return { Provider: PropTypedProvider, ...rest };
 }
 
