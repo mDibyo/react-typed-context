@@ -28,9 +28,6 @@
     "url": "https://github.com/mDibyo/context-types/issues"
   },
   "homepage": "https://github.com/mDibyo/context-types#readme",
-  "peerDependencies": {
-    "react": "^16.3"
-  },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-plugin-external-helpers": "^6.22.0",
@@ -43,6 +40,7 @@
     "rollup-plugin-node-resolve": "^3.3.0"
   },
   "dependencies": {
-    "prop-types": "^15.6.1"
+    "prop-types": "^15.6.1",
+    "react": "^16.3"
   }
 }
