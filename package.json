@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mDibyo/context-types.git"
+    "url": "git+https://github.com/mDibyo/react-typed-context.git"
   },
   "keywords": [
     "react",
@@ -25,9 +25,9 @@
   "author": "Dibyo Majumdar <dibyo.majumdar@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mDibyo/context-types/issues"
+    "url": "https://github.com/mDibyo/react-typed-context/issues"
   },
-  "homepage": "https://github.com/mDibyo/context-types#readme",
+  "homepage": "https://github.com/mDibyo/react-typed-context#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-plugin-external-helpers": "^6.22.0",
