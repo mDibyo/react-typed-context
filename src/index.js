@@ -1,2 +1,4 @@
-export default 'Hello'
+import createContextOfType from './createContextOfType';
+
+export default createContextOfType;
 
