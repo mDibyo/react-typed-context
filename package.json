@@ -1,5 +1,5 @@
 {
-  "name": "context-types",
+  "name": "react-typed-context",
   "version": "0.0.0",
   "description": "Runtime type checking for React Context Providers and Consumers",
   "main": "dist/index.js",
